@@ -5,7 +5,7 @@ Your personal sharex encrypted and file host in AES-256 without providers spying
 ```
 | Official Instance |
 
-https://read-my-man.ga)
+https://read-my-man.ga
 ```
 
 ### Is your files safe?
