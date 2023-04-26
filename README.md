@@ -1,24 +1,36 @@
-# EncryptedFileHost
-Encrypt files or images in AES 256
-Running in prod on https://read-my-man.ga
+# ShareX Encrypted Image & File Host
 
-## What is this?
-This service is a free (for now) encrypted file/image host. Files are encrypted with AES 256 then compressed with GZIP. No one can read your files without the encryption key, not even me.
+Your personal sharex encrypted and file host in AES-256 without providers spying on your shit.
 
-Even if the servers were hacked no one would be able to see file contents unless AES 256 is somehow cracked in the future.
+```
+| Official Instance |
 
-This is a fun project that I will try to keep free, however if it uses too much storage I may have to create restrictions.
+https://read-my-man.ga)
+```
 
-Please note this service is NOT intended to be used for breaking the law. I only really made this to prevent others from eavesdropping on my images/files that could contain personal information or even credit cards.
-(copy and pasted)
+### Is your files safe?
 
-## How-To
-Here's how to start everything
-1. Clone this repo
-2. Make a folder in the root directory called "files" (without the quotes)
-3. Do 'npm install'
-4. Then do 'node .'
-5. Done!
+> Files are encrypted with AES 256 then compressed with GZIP. No one can read your files without the encryption key, Even if the servers were hacked no one would be able to see file contents unless AES 256 is somehow cracked in the future.
 
-## Devs
-Idk lmao
+
+### Quick Installation
+
+1. ```apt install git```
+
+2. ```mkdir sharex```
+
+3. ```install latest npm (nodejs): curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash```
+
+4. ```source ~/.bashrc```
+
+5. ```nvm list-remote```
+
+6. ```v18.16.0   (Latest LTS: Hydrogen): nvm install lts/hydrogen```
+
+7. ```node -v```
+
+8. ```cd sharex```
+
+9. ```npm install
+
+10. ```'node .'```
