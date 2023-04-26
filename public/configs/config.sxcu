@@ -1,9 +1,9 @@
     {
       "Version": "13.4.0",
-      "Name": "read-my-man.ga",
+      "Name": "changethis",
       "DestinationType": "None",
       "RequestMethod": "POST",
-      "RequestURL": "https://read-my-man.ga/upload",
+      "RequestURL": "https://changethis/upload",
       "Parameters": {
         "randomKey": "true"
       },
