@@ -31,6 +31,6 @@ https://read-my-man.ga)
 
 8. ```cd sharex```
 
-9. ```npm install
+9. ```npm install```
 
 10. ```'node .'```
