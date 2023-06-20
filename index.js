@@ -106,15 +106,6 @@ app.post("/upload", function (req, res) {
 
 // legacy
 app.get("/decrypt", function (req, res) {
-    // set up rate limiter: maximum of five requests per minute
-var RateLimit = require('express-rate-limit');
-var limiter = RateLimit({
-  windowMs: 1*60*1000, // 1 minute
-  max: 5
-});
-
-// apply rate limiter to all requests
-app.use(limiter);
     const fileName = req.query.id;
     const password = req.query.key;
     if (!password) {
@@ -134,17 +125,7 @@ app.get("/totalsize", function (req, res) {
     });
 });
 
-
 app.get("/:filename", function (req, res) {
-    // set up rate limiter: maximum of five requests per minute
-var RateLimit = require('express-rate-limit');
-var limiter = RateLimit({
-  windowMs: 1*60*1000, // 1 minute
-  max: 5
-});
-    
-    // apply rate limiter to all requests
-app.use(limiter);
     const fileName = req.params.filename;
     const password = req.query.key;
     if (!password) {
