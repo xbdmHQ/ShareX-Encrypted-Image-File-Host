@@ -2,11 +2,12 @@
 
 Your personal sharex encrypted and file host in AES-256 without providers spying on your shit.
 
-```
-| Official Instance |
+### Instances
 
-https://read-my-man.ga
-```
+| Domain | CDN/DDoS Protection | Provider | Country |
+| -- | -- | -- | -- 
+| [https://read-my-man.ga](https://read-my-man.ga) (Official) |  N/A | N/A | N/A
+
 
 ### Is your files safe?
 
