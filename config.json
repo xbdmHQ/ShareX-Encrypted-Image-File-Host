@@ -2,6 +2,6 @@
   "Cloudflare": true,
   "BypassCooldownToken": "changethis",
   "port": 2999,
-  "bindIP": "127.0.0.1",
+  "bindIP": "0.0.0.0",
   "abuseHeaderMessage": "changethis"
 }
