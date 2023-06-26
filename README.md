@@ -12,8 +12,12 @@ https://read-my-man.ga
 
 > Files are encrypted with AES 256 then compressed with GZIP. No one can read your files without the encryption key, Even if the servers were hacked no one would be able to see file contents unless AES 256 is somehow cracked in the future.
 
+### Deploy with Docker
+```
+coming soon...
+```
 
-### Quick Installation
+### Manual Installation
 
 1. ```apt install git```
 
